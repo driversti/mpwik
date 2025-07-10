@@ -1,0 +1,16 @@
+{
+  "name": "water-outage-checker",
+  "version": "1.0.0",
+  "description": "Checks for water outages in Warsaw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.374.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
